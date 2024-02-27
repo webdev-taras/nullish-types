@@ -9,6 +9,7 @@
     "null",
     "none",
     "empty",
+    "nil",
     "types",
     "prototypes",
     "constructors"
@@ -19,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:webdev-taras/instype.git"
+    "url": "git+https://github.com/webdev-taras/nullish-types.git"
   },
   "license": "MIT",
   "scripts": {
