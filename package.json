@@ -1,0 +1,32 @@
+{
+  "name": "nullish-types",
+  "version": "0.0.1",
+  "description": "As a better alternative to null and undefined values.",
+  "main": "index.js",
+  "keywords": [
+    "nullish",
+    "undefined",
+    "null",
+    "none",
+    "empty",
+    "types",
+    "prototypes",
+    "constructors"
+  ],
+  "author": {
+    "name": "Taras Panasiuk",
+    "email": "webdev.taras@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:webdev-taras/instype.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/**/*.test.js",
+    "test:file": "node --test --watch tests/null.test.js",
+    "test:only": "node --test --test-only",
+    "test:cover": "node --test --experimental-test-coverage",
+    "test:watch": "node --test --watch"
+  }
+}
